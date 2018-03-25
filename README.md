@@ -7,9 +7,9 @@ React components that help you build documentation sites for other React compone
 Good documentation is key to any successful open source project. This set
 of components can help with documenting React components.
 
-✓ Compiles to a static site that can be hosted on GitHub pages
-✓ Designed for use with [create-react-app](https://github.com/facebook/create-react-app)
-✓ Helps with importing [Markdown](https://en.wikipedia.org/wiki/Markdown) files that include syntax highlighting
+✓ Compiles to a static site that can be hosted on GitHub pages  
+✓ Designed for use with [create-react-app](https://github.com/facebook/create-react-app)  
+✓ Helps with importing [Markdown](https://en.wikipedia.org/wiki/Markdown) files that include syntax highlighting  
 ✓ Includes a text editor and code preview component
 
 ## Installation
