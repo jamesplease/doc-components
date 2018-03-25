@@ -1,11 +1,37 @@
 {
   "name": "doc-components",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "React components that help you build documentation sites for other React components.",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesplease/doc-components.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "documentation",
+    "docs",
+    "github",
+    "pages",
+    "create-react-app",
+    "markdown",
+    "text",
+    "editor",
+    "source",
+    "code"
+  ],
+  "author": "James Please <jamesplease2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesplease/doc-components/issues"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ]
 }
