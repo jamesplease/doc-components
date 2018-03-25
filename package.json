@@ -1,6 +1,6 @@
 {
   "name": "doc-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React components that help you build documentation sites for other React components.",
   "main": "src/index.js",
   "scripts": {
@@ -30,8 +30,6 @@
     "url": "https://github.com/jamesplease/doc-components/issues"
   },
   "files": [
-    "dist",
-    "lib",
-    "es"
+    "src"
   ]
 }
