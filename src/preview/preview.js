@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
-import { transform } from '@babel/standalone';
+import Babel from '@babel/standalone';
 
 const ERROR_TIMEOUT = 500;
 
@@ -47,7 +47,7 @@ export default class Preview extends Component {
         ${this.props.code}
       });`;
 
-    return transform(code, {
+    return Babel.transform(code, {
       presets: ['es2017', 'stage-0', 'react'],
     }).code;
   };
