@@ -43,18 +43,18 @@ create-react-app build system.
 
 There are four doc-components.
 
-### <Markdown />
+### `<Markdown />`
 
 Documentation coming soon.
 
-### <Editor />
+### `<Editor />`
 
 Documentation coming soon.
 
-### <Preview />
+### `<Preview />`
 
 Documentation coming soon.
 
-### <CodeManager />
+### `<CodeManager />`
 
 Documentation coming soon.
