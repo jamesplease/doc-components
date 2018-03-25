@@ -31,5 +31,13 @@
   },
   "files": [
     "src"
-  ]
+  ],
+  "dependencies": {
+    "@babel/standalone": "^7.0.0-beta.42",
+    "codemirror": "^5.36.0",
+    "fetch-dedupe": "^3.0.0-beta1",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
 }
