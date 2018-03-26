@@ -4,7 +4,7 @@ React components that help you build documentation sites for other React compone
 
 ✓ Designed for use with [create-react-app](https://github.com/facebook/create-react-app)  
 ✓ Helps with importing [Markdown](https://en.wikipedia.org/wiki/Markdown) files that include syntax highlighting  
-✓ Includes a text editor and code preview component
+✓ Includes a text editor and code preview component  
 ✗ Still requires some configuration, and it can be tricky
 
 ## Motivation
