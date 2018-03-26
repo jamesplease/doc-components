@@ -4,7 +4,6 @@ import Lowlight from "react-lowlight";
 export default class CodeHighlighter extends Component {
   render() {
     const { language, value, inline } = this.props;
-    console.log('got a language', language);
 
     return (
       <Lowlight language={language || "js"} value={value} inline={inline} />
