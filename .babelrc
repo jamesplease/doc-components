@@ -1,17 +1,5 @@
 {
   "env": {
-    "build": {
-      "presets": [["env", { "modules": false }], "stage-3", "react"],
-      "plugins": ["external-helpers", "transform-class-properties"]
-    },
-    "buildProd": {
-      "presets": [["env", { "modules": false }], "stage-3", "react"],
-      "plugins": ["external-helpers", "transform-class-properties"]
-    },
-    "es": {
-      "presets": [["env", { "modules": false }], "stage-3", "react"],
-      "plugins": ["transform-class-properties"]
-    },
     "commonjs": {
       "plugins": [
         ["transform-es2015-modules-commonjs", { "loose": true }],
