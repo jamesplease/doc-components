@@ -1,6 +1,6 @@
 {
   "name": "doc-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React components that help you build documentation sites for other React components.",
   "main": "lib/index.js",
   "module": "es/index.js",
