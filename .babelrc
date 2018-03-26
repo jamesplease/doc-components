@@ -1,0 +1,15 @@
+{
+  "env": {
+    "commonjs": {
+      "plugins": [
+        ["transform-es2015-modules-commonjs", { "loose": true }],
+        "transform-class-properties"
+      ],
+      "presets": ["stage-3", "react"]
+    },
+    "test": {
+      "presets": ["env", "stage-3", "react"],
+      "plugins": ["transform-class-properties"]
+    }
+  }
+}

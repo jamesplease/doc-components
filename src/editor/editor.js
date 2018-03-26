@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import CodeMirror from "codemirror";
-import "./editor.css";
 
 class Editor extends React.Component {
   static propTypes = {

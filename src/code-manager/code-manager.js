@@ -1,7 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { fetchDedupe } from 'fetch-dedupe';
-import exampleCodeUrl from './example.txt';
+
+const defaultCode = `class Example extends Component {
+  render () {
+    return (
+      <div>
+        This is the default code provided by the CodeManager component.
+      </div>
+    );
+  }
+}
+
+return <Example />;`;
 
 export default class CodeManager extends React.Component {
   render() {
@@ -23,7 +34,7 @@ export default class CodeManager extends React.Component {
   };
 
   static defaultProps = {
-    codeTextUrl: exampleCodeUrl,
+    codeTextUrl: null,
   }
 
   state = {
@@ -36,12 +47,16 @@ export default class CodeManager extends React.Component {
 
   componentWillReceiveProps(nextProps) {
     if (this.props.codeTextUrl !== nextProps.codeTextUrl) {
-      this.fetchCode(nextProps);
+      if (nextProps.codeTextUrl) {
+        this.fetchCode(nextProps);
+      }
     }
   }
 
   componentDidMount() {
-    this.fetchCode();
+    if (this.props.codeTextUrl) {
+      this.fetchCode();
+    }
   }
 
   fetchCode = props => {
