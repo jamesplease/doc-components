@@ -2,18 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { fetchDedupe } from 'fetch-dedupe';
 
-const defaultCode = `class Example extends Component {
-  render () {
-    return (
-      <div>
-        This is the default code provided by the CodeManager component.
-      </div>
-    );
-  }
-}
-
-return <Example />;`;
-
 export default class CodeManager extends React.Component {
   render() {
     const { children } = this.props;
